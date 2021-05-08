@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "RetroGrungeWest";
+    src: url('../font/retro_grunge_west/RetroGrungeWest.otf');
+}
+
+
+@font-face {
+    font-family: "another_day";
+    src: url('../font/another_day/AnotherDay.otf') format('otf'),
+    url('../font/another_day/AnotherDay.ttf') format("truetype");
+}
+
+
+
+body{
+    max-width: 850px;
+    margin: auto;
+}
+
+
+.section{
+    margin: auto;
+    max-width: 800px;
+    padding: 2px 20px;
+    border-radius: 20px;
+    margin-top:20px;
+}
+
+.section h1{
+    text-transform: uppercase;
+    font-family: 'another_day', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.section p{
+    text-transform: uppercase;
+    font-family: 'RetroGrungeWest', Arial, Helvetica, sans-serif;
+}
+
+#section1 h1{
+    text-align: right;
+}
+
+#section2 h1{
+    text-align: center;
+}
+
+#section1{
+    background-color: chartreuse;  
+    box-shadow: 2px 3px 10px black;
+}   
+
+#section2{
+    background-color: blanchedalmond;  
+    box-shadow: 6px 6px 6px red;
+}
+
+#section3{
+    background-color: aquamarine;  
+    box-shadow: 0 4px 8px 0 rgba(253, 244, 99, 0.8), 0 6px 20px 0 rgba(253, 244, 99, 0.9);
+}
+
+
